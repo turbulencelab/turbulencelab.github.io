@@ -4,13 +4,13 @@
 
 To build the website locally, clone the repo with:
 
-```
+```shell
 git clone git@github.com:turbulencelab/turbulencelab.github.io.git
-
+```
 
 Then install necessary Ruby dependencies by running `bundle install` from within the `blotter` directory.  After this, the site can be be built with:
 
-```
+```shell
 bundle exec jekyll build
 ```
 
@@ -20,6 +20,8 @@ To view the site, run `bundle exec jekyll serve` and point a browser to `http://
 
 
 Then `jekyll build` works as normal.
+
+## 가이드
 
 
 ## Tip
