@@ -1,0 +1,159 @@
+/* Syntax Highlighting - Solarized Light Theme */
+:root {
+  /* Solarized palette as CSS variables */
+  --sol-base03: #002b36;
+  --sol-base02: #073642;
+  --sol-base01: #586e75;
+  --sol-base00: #657b83;
+  --sol-base0: #839496;
+  --sol-base1: #93a1a1;
+  --sol-base2: #eee8d5;
+  --sol-base3: #fdf6e3;
+  --sol-yellow: #b58900;
+  --sol-orange: #cb4b16;
+  --sol-red: #dc322f;
+  --sol-magenta: #d33682;
+  --sol-violet: #6c71c4;
+  --sol-blue: #268bd2;
+  --sol-cyan: #2aa198;
+  --sol-green: #859900;
+  
+  /* Default background - can be toggled with dark mode */
+  --highlight-bg: #f8f8f8;
+}
+
+/* Base highlight container */
+.highlight {
+  background-color: var(--highlight-bg);
+  border-radius: 4px;
+  padding: 1em;
+  margin: 1em 0;
+  overflow-x: auto;
+}
+
+/* Token styling */
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs { color: var(--sol-base01); } /* Comments */
+
+.highlight .err { color: var(--sol-base1); } /* Error */
+.highlight .g { color: var(--sol-base1); } /* Generic */
+.highlight .k,
+.highlight .kn,
+.highlight .kp,
+.highlight .o,
+.highlight .ow { color: var(--sol-green); } /* Keywords & Operators */
+
+.highlight .l { color: var(--sol-base1); } /* Literal */
+.highlight .n,
+.highlight .p { color: var(--sol-base1); } /* Name & Punctuation */
+.highlight .x { color: var(--sol-orange); } /* Other */
+
+/* Comment types */
+.highlight .cp { color: var(--sol-green); } /* Comment.Preproc */
+
+/* Generic types */
+.highlight .gd { color: var(--sol-cyan); } /* Generic.Deleted */
+.highlight .ge { 
+  color: var(--sol-base1); 
+  font-style: italic; 
+} /* Generic.Emph */
+.highlight .gr { color: var(--sol-red); } /* Generic.Error */
+.highlight .gh { color: var(--sol-orange); } /* Generic.Heading */
+.highlight .gi { color: var(--sol-green); } /* Generic.Inserted */
+.highlight .go,
+.highlight .gp,
+.highlight .gt { color: var(--sol-base1); } /* Generic variants */
+.highlight .gs { 
+  color: var(--sol-base1); 
+  font-weight: bold; 
+} /* Generic.Strong */
+.highlight .gu { color: var(--sol-orange); } /* Generic.Subheading */
+
+/* Keyword types */
+.highlight .kc { color: var(--sol-orange); } /* Keyword.Constant */
+.highlight .kd,
+.highlight .kr { color: var(--sol-blue); } /* Keyword.Declaration, Keyword.Reserved */
+.highlight .kt { color: var(--sol-red); } /* Keyword.Type */
+
+/* Literals */
+.highlight .ld { color: var(--sol-base1); } /* Literal.Date */
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il { color: var(--sol-cyan); } /* Number literals */
+
+.highlight .s,
+.highlight .sc,
+.highlight .s2,
+.highlight .si,
+.highlight .sx,
+.highlight .s1,
+.highlight .ss { color: var(--sol-cyan); } /* String literals */
+
+.highlight .sb { color: var(--sol-base01); } /* Literal.String.Backtick */
+.highlight .sd,
+.highlight .sh { color: var(--sol-base1); } /* String doc & heredoc */
+.highlight .se { color: var(--sol-orange); } /* Literal.String.Escape */
+.highlight .sr { color: var(--sol-red); } /* Literal.String.Regex */
+
+/* Names */
+.highlight .na { color: var(--sol-base1); } /* Name.Attribute */
+.highlight .nb { color: var(--sol-yellow); } /* Name.Builtin */
+.highlight .nc,
+.highlight .nd,
+.highlight .nf,
+.highlight .nt { color: var(--sol-blue); } /* Class, Decorator, Function, Tag */
+
+.highlight .no,
+.highlight .ni,
+.highlight .ne { color: var(--sol-orange); } /* Constant, Entity, Exception */
+
+.highlight .nl,
+.highlight .nn,
+.highlight .nx,
+.highlight .py { color: var(--sol-base1); } /* Label, Namespace, Other, Property */
+
+.highlight .nv,
+.highlight .bp,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi { color: var(--sol-blue); } /* Variables */
+
+.highlight .w { color: var(--sol-base1); } /* Text.Whitespace */
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --highlight-bg: #1c1c1c;
+  }
+  
+  .highlight .c,
+  .highlight .cm,
+  .highlight .c1,
+  .highlight .cs { color: #6a8086; } /* Brighten comments in dark mode for readability */
+  
+  .highlight .g,
+  .highlight .l,
+  .highlight .n,
+  .highlight .p,
+  .highlight .go,
+  .highlight .gp,
+  .highlight .gt,
+  .highlight .na,
+  .highlight .nl,
+  .highlight .nn,
+  .highlight .nx,
+  .highlight .py,
+  .highlight .w,
+  .highlight .sd,
+  .highlight .sh { color: #bbc5c5; } /* Brighten base text in dark mode */
+}
+
+/* Transition for theme switching to avoid jarring changes */
+.highlight, .highlight * {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
