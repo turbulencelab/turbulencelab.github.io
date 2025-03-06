@@ -1,6 +1,6 @@
 ---
 layout: member
-title: woohyuk noh
+title: Woohyuk Noh
 position: Master student
 image: /images/people/woohyuk-noh.jpeg
 ---

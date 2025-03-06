@@ -1,6 +1,6 @@
 ---
 layout: member
-title: sungwoo lee
+title: Sungwoo Lee
 position: Master student
 image: /images/people/sungwoo-lee.jpg
 ---

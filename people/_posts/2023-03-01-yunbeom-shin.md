@@ -1,6 +1,6 @@
 ---
 layout: member
-title: yunbeom shin
+title: Yunbeom Shin
 position: Samsung Electronics, Researcher
 alumni: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: member
-title: hanmin choi
+title: Hanmin Choi
 position: Yonsei University, Researcher
 alumni: true
 ---
