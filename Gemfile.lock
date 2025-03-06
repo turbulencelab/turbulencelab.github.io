@@ -207,7 +207,6 @@ DEPENDENCIES
   jekyll (~> 4.3.0)
   jekyll-gzip
   jekyll-postcss
-  jekyll-sass-converter (~> 3.0)
   jekyll-scholar
   kramdown
   kramdown-parser-gfm

@@ -14,7 +14,6 @@ gem 'octokit'
 gem 'netrc'
 
 # CSS 현대화
-gem 'jekyll-sass-converter', '~> 3.0'
 gem 'jekyll-postcss'
 
 group :jekyll_plugins do

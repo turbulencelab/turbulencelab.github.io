@@ -5,8 +5,6 @@ url: https://turbulencelab.github.io
 markdown: kramdown
 permalink: /:categories/:title/
 future: true
-sass:
-  sass_dir: css
 
 # Plug-ins
 plugins:
@@ -44,13 +42,6 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "vendor"
-
-# Jekyll Sass
-sass:
-  sass_dir: css
-  style: compressed
-  implementation: sass-embedded # Dart Sass 사용
-  sourcemap: never # 필요에 따라 'development'로 변경 가능
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
