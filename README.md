@@ -6,7 +6,7 @@ To build the website locally, clone the repo with:
 
 ```
 git clone git@github.com:turbulencelab/turbulencelab.github.io.git
-```
+
 
 Then install necessary Ruby dependencies by running `bundle install` from within the `blotter` directory.  After this, the site can be be built with:
 
@@ -20,6 +20,21 @@ To view the site, run `bundle exec jekyll serve` and point a browser to `http://
 
 
 Then `jekyll build` works as normal.
+
+
+## Tip
+
+1. Clone 시간 줄이기
+    * 전체 clone하면 오래걸릴 수 있다. 다음 방법을 통해 최신 n개(예제에서는 10개)만 clone하면 좀 더 빠르게 clone가능하다.
+
+```shell
+git clone git@github.com:turbulencelab/turbulencelab.github.io.git --depth 10
+```
+
+2. Devcontainer에서 개발하기
+    * Ruby깔기가 귀찮다면 [Devcontainer](https://learn.microsoft.com/ko-kr/training/modules/use-docker-container-dev-env-vs-code/) 기능을 사용하기를 추천한다.
+    * 필요한 기본적인 Dockerfile(Ruby 3.3.4)과 설정은 넣어두었다.
+
 
 ## Contribute
 
