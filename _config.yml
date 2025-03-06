@@ -10,7 +10,7 @@ sass:
 
 # Plug-ins
 plugins:
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-gzip
 
 exclude:
@@ -45,6 +45,12 @@ exclude:
   - "Gemfile.lock"
   - "vendor"
 
+# Jekyll Sass
+sass:
+  sass_dir: css
+  style: compressed
+  implementation: sass-embedded # Dart Sass 사용
+  sourcemap: never # 필요에 따라 'development'로 변경 가능
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

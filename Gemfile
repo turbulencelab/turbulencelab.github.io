@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 # jekyll
-gem "jekyll", "~> 3.9"
-gem 'coderay', '~> 1.1.0'
-gem "kramdown", "~> 2.3"
-gem "kramdown-parser-gfm", "~> 1.1"
+gem "jekyll", "~> 4.3.0"
+gem 'coderay'
+gem "kramdown"
+gem "kramdown-parser-gfm"
 
 # katex
 gem "execjs"
@@ -12,6 +12,10 @@ gem "execjs"
 # octokit
 gem 'octokit'
 gem 'netrc'
+
+# CSS 현대화
+gem 'jekyll-sass-converter', '~> 3.0'
+gem 'jekyll-postcss'
 
 group :jekyll_plugins do
   gem 'jekyll-scholar'
