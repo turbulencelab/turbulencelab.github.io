@@ -1,6 +1,6 @@
 ---
 layout: member
 title: Jaeseong Lee
-position: Cranfield Univiersity, Phd student
+position: Doosan Enerbility, Researcher
 alumni: true
 ---
