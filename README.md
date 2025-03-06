@@ -35,6 +35,16 @@ git clone git@github.com:turbulencelab/turbulencelab.github.io.git --depth 10
     * Ruby깔기가 귀찮다면 [Devcontainer](https://learn.microsoft.com/ko-kr/training/modules/use-docker-container-dev-env-vs-code/) 기능을 사용하기를 추천한다.
     * 필요한 기본적인 Dockerfile(Ruby 3.3.4)과 설정은 넣어두었다.
 
+3. 라이브서버에서 테스트해보기
+    * Devcontainer 안에 있다고 가정한다.
+    * bundle install을 통해 패키지 설치
+        ```shell
+        bundle install
+        ```
+    * live server에서 열기
+        ```shell
+        bundle exec jekyll serve
+        ```
 
 ## Contribute
 
