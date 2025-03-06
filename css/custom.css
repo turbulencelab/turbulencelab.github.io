@@ -28,6 +28,67 @@
   --accordion-button-active-color: #333;
   --primary: #007bff;
   --font-family-base: 'Roboto', sans-serif;
+  /* 메인 테마 색상 */
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+
+  /* 주요 테마 색상 */
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+
+  /* RGB 값들 */
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+
+  /* 그레이 스케일 */
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+
+  /* 그레이 스케일 RGB 값들 */
+  --bs-gray-100-rgb: 248, 249, 250;
+  --bs-gray-200-rgb: 233, 236, 239;
+  --bs-gray-300-rgb: 222, 226, 230;
+  --bs-gray-400-rgb: 206, 212, 218;
+  --bs-gray-500-rgb: 173, 181, 189;
+  --bs-gray-600-rgb: 108, 117, 125;
+  --bs-gray-700-rgb: 73, 80, 87;
+  --bs-gray-800-rgb: 52, 58, 64;
+  --bs-gray-900-rgb: 33, 37, 41;
+
+  /* 화이트/블랙 */
+  --bs-white: #fff;
+  --bs-black: #000;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
 }
 
 /* Typography scale */
@@ -123,11 +184,11 @@ b, strong {
 .nav-brand a {
   color: var(--gray);
 }
-
+/*
 .nav-brand a:hover {
   color: var(--primary);
   text-decoration: none;
-}
+} */
 
 .navbar-nav .nav-item {
   padding: 0.5rem 0.5rem;
@@ -526,7 +587,7 @@ blockquote p {
 @keyframes scaleout {
   0% {
     transform: scale(0.0);
-  } 
+  }
   100% {
     transform: scale(1.0);
     opacity: 0;
@@ -559,41 +620,41 @@ div.mermaid .label {
     --code-color: #f8f9fa;
     --well-bg: #2d2d2d;
   }
-  
+
   body {
     background-color: var(--body-bg);
     color: var(--text-color);
   }
-  
+
   .bg-navbar {
     background: #1e1e1e;
     border-bottom: 1px solid #333;
   }
-  
+
   pre {
     border-color: #444;
     background-color: var(--pre-bg);
   }
-  
+
   blockquote {
     border-left-color: #444;
   }
-  
+
   .list-group-item:nth-child(even) {
     background: rgba(255, 255, 255, 0.1);
     color: #ddd;
   }
-  
+
   .list-group-item:nth-child(even) a {
     color: #ddd;
     border-color: #ddd;
   }
-  
+
   .list-group-item:nth-child(odd) {
     background: rgba(0, 0, 0, 0.3);
     color: #ddd;
   }
-  
+
   .list-group-item:nth-child(odd) a {
     background: transparent;
     color: #ddd;

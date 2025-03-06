@@ -37,6 +37,10 @@ git clone git@github.com:turbulencelab/turbulencelab.github.io.git --depth 10
 
 3. 라이브서버에서 테스트해보기
     * Devcontainer 안에 있다고 가정한다.
+    * yarn 으로 node관련 패키지 설치 (sass때문)
+        ```shell
+        yarn install
+        ```
     * bundle install을 통해 패키지 설치
         ```shell
         bundle install
