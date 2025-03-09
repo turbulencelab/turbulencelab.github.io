@@ -9,7 +9,7 @@ layout: default
 		<div class="d-flex flex-row">
 			{% if member.image %}
 			<div class="flex-shrink-0">
-				<img class="pull-left pad-right" width=120 src="{{ member.image }}">
+        <img class="pull-left pad-right fallback-person-image" width=120  src="{{ member.image }}" alt="{{ member.name }}
 			</div>
 			{% endif %}
 			<div class="flex-grow-1 ms-3 titlebox">
