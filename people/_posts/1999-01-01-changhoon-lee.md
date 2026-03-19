@@ -26,6 +26,10 @@ is_url: true
 * 1993 – 1994 Postdoctoral Researcher, Department of Mechanical Engineering, University of California at Berkeley
 
 ## Awards & Honors
+* 2025 Outstanding Lecturer Award, Yonsei University
+* 2024 Outstanding Lecturer Award, Yonsei University
+* 2023 KSME Academic Award, The Korean Society of Mechanical Engineers
+* 2023 KSME Fluid Engineering Academic Award, The Korean Society of Mechanical Engineers
 * 2020 Faculty Award of Outstanding Achievement (Research), Yonsei University
 * 2019 Faculty Award of Outstanding Achievement (Research), Yonsei University
 * 2018 Faculty Award of Best Educator, Yonsei University

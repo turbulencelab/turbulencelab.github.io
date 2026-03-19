@@ -1,6 +1,6 @@
 ---
 layout: member
 title: Jiyeon Kim
-position: PhD student
-image: /images/people/jiyeon-kim.jpg
+position: LG CNS, Researcher
+alumni: true
 ---
